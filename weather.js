@@ -12,7 +12,7 @@ var cities = ["Austin", "San Antonio",];
             if (city) {
 
                 $.ajax({
-                    url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=Imperial" + "&APPID= f29e525116f20ec1d68b45d9f4229650",
+                    url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=Imperial" + "&APPID=f29e525116f20ec1d68b45d9f4229650",
                     type: "GET",
                     dataType: "jsonp",
                     success: function (data) {
